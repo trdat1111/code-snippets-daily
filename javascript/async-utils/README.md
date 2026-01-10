@@ -1,13 +1,13 @@
-# sleep
+# retry
 
 ## Description
 
-Async sleep/delay function
+Retry async function with exponential backoff
 
 ## Usage
 
 ```javascript
-import { sleep } from './sleep.js';
+import { retry } from './retry.js';
 ```
 
-See the implementation in [`sleep.js`](./sleep.js) for full documentation and examples.
+See the implementation in [`retry.js`](./retry.js) for full documentation and examples.
